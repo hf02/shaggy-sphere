@@ -14,7 +14,7 @@
       {
         devShell = pkgs.mkShell {
           packages = [
-            # eg. pkgs.nodejs_24 ...
+            pkgs.nodejs_24
           ];
         };
       }
